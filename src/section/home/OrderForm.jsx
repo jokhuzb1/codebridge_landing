@@ -21,8 +21,7 @@ export default function Services() {
 					Оформление <span className="text-[#3E9CDC]">заказа</span>
 				</h1>
 				<p>Перед заполнением ознакомтесь с нашей схемой работы!</p>
-				<div className="relative flex text-center items-center justify-center">
-					<hr />
+				<div className="relative grid grid-cols-2 md:flex items-center justify-center">
 					<SvgContainer icon={<Glass />} text="Lorem ipsum dolor sit amet" />
 					<SvgContainer
 						icon={<Percentage />}
